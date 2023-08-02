@@ -8,12 +8,8 @@ jQuery(document).ready(function ($) {
 
   function displayQuantityUpdatAlert(productName, newQuantity) {
     alert(
-      "Quantity of " +
-        productName +
-        " is now " +
-        newQuantity +
-        '. Click "UDPATE CART" to finalize.'
-    );
+      'Quantity of ' + productName +' is now ' + newQuantity + '. Click "UDPATE CART" to finalize.')
+ 
   }
 
   // Bind a function to the 'click' event of 'Add to Cart' buttons on the shop page
